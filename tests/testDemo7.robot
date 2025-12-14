@@ -11,7 +11,7 @@ ${book_name}    Robot Framework
 *** Test Cases ***
 Play around with Dictionary
     [Tags]      API
-    &{data}=    Create Dictionary      name=rahulshetty     course=robot       website=rahulshettyacademy.com
+    &{data}=    Create Dictionary      name=harshit     course=robot       website=rahulshettyacademy.com
     log     ${data}
     Dictionary Should Contain Key     ${data}     name
     log     ${data}[name]
