@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.3.2 (Python 3.13.7 on win32)" generated="2025-12-14T10:30:54.982596" rpa="false" schemaversion="5">
+<suite id="s1" name="RobotFramework" source="C:\Users\Harshit Srivastava\Downloads\RobotFramework\RobotFramework">
+<suite id="s1-s1" name="Tests" source="C:\Users\Harshit Srivastava\Downloads\RobotFramework\RobotFramework\tests">
+<suite id="s1-s1-s1" name="testDemo8" source="C:\Users\Harshit Srivastava\Downloads\RobotFramework\RobotFramework\tests\testDemo8.robot">
+<test id="s1-s1-s1-t1" name="Open the google.com url" line="9">
+<kw name="Open the google.com url now">
+<kw name="Create Webdriver" owner="SeleniumLibrary">
+<msg time="2025-12-14T10:30:55.324361" level="INFO">Creating an instance of the Chrome WebDriver.</msg>
+<arg>Chrome</arg>
+<doc>Creates an instance of Selenium WebDriver.</doc>
+<status status="PASS" start="2025-12-14T10:30:55.324214" elapsed="1.293094"/>
+</kw>
+<kw name="Go To" owner="SeleniumLibrary">
+<msg time="2025-12-14T10:30:56.617895" level="INFO">Opening url 'https://www.google.com'</msg>
+<arg>https://www.google.com</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<status status="PASS" start="2025-12-14T10:30:56.617652" elapsed="0.641148"/>
+</kw>
+<status status="PASS" start="2025-12-14T10:30:55.323591" elapsed="1.935367"/>
+</kw>
+<status status="PASS" start="2025-12-14T10:30:55.322906" elapsed="1.936547"/>
+</test>
+<test id="s1-s1-s1-t2" name="Enter any item in the search string" line="11">
+<kw name="Enter any item in the search string now">
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>//textarea[@id='APjFqb']</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2025-12-14T10:30:57.261371" elapsed="0.042312"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-12-14T10:30:57.304322" level="INFO">Clicking element '//textarea[@class='gLFyf']'.</msg>
+<arg>//textarea[@class='gLFyf']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-12-14T10:30:57.303970" elapsed="0.121642"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-12-14T10:30:57.426077" level="INFO">Typing text 'Harshit' into text field '//textarea[@class='gLFyf']'.</msg>
+<arg>//textarea[@class='gLFyf']</arg>
+<arg>Harshit</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-12-14T10:30:57.425826" elapsed="0.092950"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2025-12-14T10:30:57.519278" level="INFO">Clicking button '(//input[@name='btnK'])[2]'.</msg>
+<msg time="2025-12-14T10:30:58.815035" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-9.png"&gt;&lt;img src="selenium-screenshot-9.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2025-12-14T10:30:58.815391" level="FAIL">ElementClickInterceptedException: Message: element click intercepted: Element &lt;input class="gNO89b" value="Google Search" aria-label="Google Search" name="btnK" role="button" tabindex="0" type="submit" data-ved="0ahUKEwjLzOSJpryRAxU_VmwGHYbREnEQ4dUDCBM"&gt; is not clickable at point (432, 276). Other element would receive the click: &lt;div class="pcTkSc"&gt;...&lt;/div&gt;
+  (Session info: chrome=142.0.7444.176); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff775b2a235
+	0x7ff775882630
+	0x7ff7756116dd
+	0x7ff7756724c9
+	0x7ff77566fe4e
+	0x7ff77566cd71
+	0x7ff77566bc10
+	0x7ff77565d3a8
+	0x7ff775692b0a
+	0x7ff77565cc36
+	0x7ff7756bbaba
+	0x7ff77565b0ed
+	0x7ff77565bf63
+	0x7ff775b55d60
+	0x7ff775b4fe8a
+	0x7ff775b71005
+	0x7ff77589d71e
+	0x7ff7758a4e1f
+	0x7ff77588b7c4
+	0x7ff77588b97f
+	0x7ff7758718e8
+	0x7ffc7d12e8d7
+	0x7ffc7d88c53c
+</msg>
+<arg>(//input[@name='btnK'])[2]</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="FAIL" start="2025-12-14T10:30:57.519032" elapsed="1.319830">ElementClickInterceptedException: Message: element click intercepted: Element &lt;input class="gNO89b" value="Google Search" aria-label="Google Search" name="btnK" role="button" tabindex="0" type="submit" data-ved="0ahUKEwjLzOSJpryRAxU_VmwGHYbREnEQ4dUDCBM"&gt; is not clickable at point (432, 276). Other element would receive the click: &lt;div class="pcTkSc"&gt;...&lt;/div&gt;
+  (Session info: chrome=142.0.7444.176); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff775b2a235
+	0x7ff775882630
+	0x7ff7756116dd
+	0x7ff7756724c9
+	0x7ff77566fe4e
+	0x7ff77566cd71
+	0x7ff77566bc10
+	0x7ff77565d3a8
+	0x7ff775692b0a
+	0x7ff77565cc36
+	0x7ff7756bbaba
+	0x7ff77565b0ed
+	0x7ff77565bf63
+	0x7ff775b55d60
+	0x7ff775b4fe8a
+	0x7ff775b71005
+	0x7ff77589d71e
+	0x7ff7758a4e1f
+	0x7ff77588b7c4
+	0x7ff77588b97f
+	0x7ff7758718e8
+	0x7ffc7d12e8d7
+	0x7ffc7d88c53c
+</status>
+</kw>
+<status status="FAIL" start="2025-12-14T10:30:57.260977" elapsed="1.578227">ElementClickInterceptedException: Message: element click intercepted: Element &lt;input class="gNO89b" value="Google Search" aria-label="Google Search" name="btnK" role="button" tabindex="0" type="submit" data-ved="0ahUKEwjLzOSJpryRAxU_VmwGHYbREnEQ4dUDCBM"&gt; is not clickable at point (432, 276). Other element would receive the click: &lt;div class="pcTkSc"&gt;...&lt;/div&gt;
+  (Session info: chrome=142.0.7444.176); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff775b2a235
+	0x7ff775882630
+	0x7ff7756116dd
+	0x7ff7756724c9
+	0x7ff77566fe4e
+	0x7ff77566cd71
+	0x7ff77566bc10
+	0x7ff77565d3a8
+	0x7ff775692b0a
+	0x7ff77565cc36
+	0x7ff7756bbaba
+	0x7ff77565b0ed
+	0x7ff77565bf63
+	0x7ff775b55d60
+	0x7ff775b4fe8a
+	0x7ff775b71005
+	0x7ff77589d71e
+	0x7ff7758a4e1f
+	0x7ff77588b7c4
+	0x7ff77588b97f
+	0x7ff7758718e8
+	0x7ffc7d12e8d7
+	0x7ffc7d88c53c
+</status>
+</kw>
+<status status="FAIL" start="2025-12-14T10:30:57.260265" elapsed="1.579621">ElementClickInterceptedException: Message: element click intercepted: Element &lt;input class="gNO89b" value="Google Search" aria-label="Google Search" name="btnK" role="button" tabindex="0" type="submit" data-ved="0ahUKEwjLzOSJpryRAxU_VmwGHYbREnEQ4dUDCBM"&gt; is not clickable at point (432, 276). Other element would receive the click: &lt;div class="pcTkSc"&gt;...&lt;/div&gt;
+  (Session info: chrome=142.0.7444.176); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff775b2a235
+	0x7ff775882630
+	0x7ff7756116dd
+	0x7ff7756724c9
+	0x7ff77566fe4e
+	0x7ff77566cd71
+	0x7ff77566bc10
+	0x7ff77565d3a8
+	0x7ff775692b0a
+	0x7ff77565cc36
+	0x7ff7756bbaba
+	0x7ff77565b0ed
+	0x7ff77565bf63
+	0x7ff775b55d60
+	0x7ff775b4fe8a
+	0x7ff775b71005
+	0x7ff77589d71e
+	0x7ff7758a4e1f
+	0x7ff77588b7c4
+	0x7ff77588b97f
+	0x7ff7758718e8
+	0x7ffc7d12e8d7
+	0x7ffc7d88c53c
+</status>
+</test>
+<status status="FAIL" start="2025-12-14T10:30:55.019901" elapsed="3.821849"/>
+</suite>
+<status status="FAIL" start="2025-12-14T10:30:55.017768" elapsed="3.825817"/>
+</suite>
+<status status="FAIL" start="2025-12-14T10:30:54.984313" elapsed="3.860713"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="RobotFramework" id="s1" pass="1" fail="1" skip="0">RobotFramework</stat>
+<stat name="Tests" id="s1-s1" pass="1" fail="1" skip="0">RobotFramework.Tests</stat>
+<stat name="testDemo8" id="s1-s1-s1" pass="1" fail="1" skip="0">RobotFramework.Tests.testDemo8</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

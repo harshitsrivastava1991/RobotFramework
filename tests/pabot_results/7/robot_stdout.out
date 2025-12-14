@@ -1,0 +1,39 @@
+==============================================================================
+Tests                                                                         
+==============================================================================
+Tests.testDemo8                                                               
+==============================================================================
+Open the techm url                                                      
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\Harshit Srivastava\Downloads\RobotFramework\RobotFramework\tests\testDemo8.robot:9
+    T:  Open the techm url    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\Harshit Srivastava\Downloads\RobotFramework\RobotFramework\tests\testDemo8.robot:10
+      Open the techm url now    
+______________________________________________________________________________
+| FAIL |
+No keyword with name 'Open the techm url now' found.
+------------------------------------------------------------------------------
+Enter any item in the search string                                     
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\Harshit Srivastava\Downloads\RobotFramework\RobotFramework\tests\testDemo8.robot:11
+    T:  Enter any item in the search string    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\Harshit Srivastava\Downloads\RobotFramework\RobotFramework\tests\testDemo8.robot:12
+      Enter any item in the search string now    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\Harshit Srivastava\Downloads\RobotFramework\RobotFramework\tests\testDemo8.robot:21
+      Wait Until Element Is Visible    //textarea[@id='APjFqb']
+______________________________________________________________________________
+| FAIL |
+No browser is open.
+------------------------------------------------------------------------------
+Tests.testDemo8                                                       | FAIL |
+2 tests, 0 passed, 2 failed
+==============================================================================
+Tests                                                                 | FAIL |
+2 tests, 0 passed, 2 failed
+==============================================================================
+Output:  C:\Users\Harshit Srivastava\Downloads\RobotFramework\RobotFramework\tests\pabot_results\7\output.xml

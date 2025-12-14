@@ -1,0 +1,37 @@
+==============================================================================
+Tests                                                                         
+==============================================================================
+Tests.testDemo4 :: To validate the Login form                                 
+==============================================================================
+Invalid username                                                      | PASS |
+------------------------------------------------------------------------------
+Invalid password                                                      | PASS |
+------------------------------------------------------------------------------
+special characters                                                      
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\Harshit Srivastava\Downloads\RobotFramework\RobotFramework\tests\testDemo4.robot:16
+    T:  special characters    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\Harshit Srivastava\Downloads\RobotFramework\RobotFramework\tests\testDemo4.robot:16
+      Validate UnSuccesful Login    @#$    learning
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\Harshit Srivastava\Downloads\RobotFramework\RobotFramework\tests\testDemo4.robot:23
+      Fill the login Form    ${username}    ${password}
+      |  ${username} = @#$ (str)
+      |  ${password} = learning (str)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\Harshit Srivastava\Downloads\RobotFramework\RobotFramework\tests\testDemo4.robot:33
+      Input Text    id:username    ${username}
+      |  ${username} = @#$ (str)
+______________________________________________________________________________
+| FAIL |
+Element with locator 'id:username' not found.
+------------------------------------------------------------------------------
+Tests.testDemo4 :: To validate the Login form                         | FAIL |
+3 tests, 2 passed, 1 failed
+==============================================================================
+Tests                                                                 | FAIL |
+3 tests, 2 passed, 1 failed
+==============================================================================
+Output:  C:\Users\Harshit Srivastava\Downloads\RobotFramework\RobotFramework\tests\pabot_results\3\output.xml

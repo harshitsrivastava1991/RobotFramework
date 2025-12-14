@@ -1,0 +1,34 @@
+==============================================================================
+Tests                                                                         
+==============================================================================
+Tests.testDemo2 :: To validate the Login form                                 
+==============================================================================
+Validate UnSuccesful Login                                            | PASS |
+------------------------------------------------------------------------------
+Validate Cards display in the Shopping Page                             
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\Harshit Srivastava\Downloads\RobotFramework\RobotFramework\tests\testDemo2.robot:22
+    T:  Validate Cards display in the Shopping Page    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\Harshit Srivastava\Downloads\RobotFramework\RobotFramework\tests\testDemo2.robot:23
+      Fill the login Form    ${user_name}    ${valid_password}
+      |  ${user_name} = rahulshettyacademy (str)
+      |  ${valid_password} = learning (str)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  C:\Users\Harshit Srivastava\Downloads\RobotFramework\RobotFramework\tests\testDemo2.robot:38
+      Input Text    id:username    ${username}
+      |  ${username} = rahulshettyacademy (str)
+______________________________________________________________________________
+| FAIL |
+Element with locator 'id:username' not found.
+------------------------------------------------------------------------------
+Select the Form and navigate to Child window                          | PASS |
+------------------------------------------------------------------------------
+Tests.testDemo2 :: To validate the Login form                         | FAIL |
+3 tests, 2 passed, 1 failed
+==============================================================================
+Tests                                                                 | FAIL |
+3 tests, 2 passed, 1 failed
+==============================================================================
+Output:  C:\Users\Harshit Srivastava\Downloads\RobotFramework\RobotFramework\tests\pabot_results\1\output.xml
